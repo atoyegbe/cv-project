@@ -5,25 +5,19 @@ import React from 'react';
 const EducationForm = () => {
     return (
         <> 
-            <label>
+         <form className="grid grid-cols-2 grid-rows-3 ">
+
                 <input type="text" placeholder="University Name" />
-            </label>
 
-            <label>
                 <input type="text" placeholder="Degree" />
-            </label>
 
-            <label>
                 <input type="date" placeholder="" />
-            </label>
 
-            <label>
                 <input type="date" placeholder="" />
-            </label>
 
-            <label>
                 <textarea  placeholder="Achivements" />
-            </label>
+            <button> Submit </button> <button> + Edit </button>
+        </form>
         </>
     )
 }
